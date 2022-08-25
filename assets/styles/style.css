@@ -13,6 +13,7 @@ body {
   background: rgb(20, 76, 148);
   max-width: 1200px;
   margin: auto;
+
 }
 
 #heaader__component {
@@ -46,4 +47,82 @@ a:hover {
   transition: 1s;
   color: wheat;
 
+}
+
+
+#shopping__title{
+  color: wheat;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;
+  background-color: slateblue;
+  padding: 5px;
+  transition: 2s;
+  
+}
+#shopping__title:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.items {
+  margin-top: 75px;
+  display: flex;
+  flex-basis: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.item {
+  border: 2px solid slateblue;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 5px;
+  width: 200px;
+  padding: 2px;
+}
+.item:hover {
+    /* background: lime; */
+  background:  rgb(15, 58, 114);
+}
+
+
+.item__title {
+  flex-grow: 1;
+}
+
+button {
+  /* flex-grow: 1; */
+  max-width: 100%;
+  display: block;
+  color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 5px;
+  padding-bottom: 2px;
+}
+
+
+.item__name {
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  flex-grow: 1;
+  color: white;
+}
+
+
+
+.item__title {
+  display: none;
 }
