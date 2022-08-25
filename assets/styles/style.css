@@ -1,0 +1,49 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(21, 36, 46)  ;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+}
+body {
+  background: rgb(20, 76, 148);
+  max-width: 1200px;
+  margin: auto;
+}
+
+#heaader__component {
+  background: rgb(20, 76, 148);
+  border-bottom: 1px solid slateblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+#titulo {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+ul {
+  display: flex;
+
+}
+
+
+
+ul li {
+padding-right: 50px;
+
+}
+
+
+a:hover {
+  transition: 1s;
+  color: wheat;
+
+}
